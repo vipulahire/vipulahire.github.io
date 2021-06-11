@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+font-family: sans-serif;
+}
+
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+
+.navbar
+{
+    background-image: linear-gradient(to right,rgb(56, 64, 175),rgb(69, 209, 81)) ;
+    padding: 0;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px ;
+}
+
+.navbar-nav li a
+{
+    color: white !important;
+    font-weight: 600;
+    float: right;    
+}
+
+.navbar-toggler-icon
+{
+    color:#fff;
+    font-size: 30px !important;
+
+}
+
+#banner
+{
+    background-image:linear-gradient(to right,rgb(56, 64, 175),rgb(69, 209, 81)) ;
+    color:#fff;
+    padding-top: 5%;
+
+}
+.github
+{
+    width: 45px;
+    margin: 10px;
+}
+.mail
+{
+    width: 45px;
+    margin: 10px;
+}
+.linkedin
+{
+    width: 45px;
+    margin: 10px;
+}
+#banner a
+{
+    color: #fff;
+    text-decoration: none;
+}
+ 
+.title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.wave-img
+{
+    width: 100%;
+}
+<!------------ABOUT------------------>
+
+
+.about
+{
+    background-image: linear-gradient(to right,rgb(56, 64, 175),rgb(69, 209, 81));
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+h1 {
+    background-image: url(img/blue.jpg);
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 50px;
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Steelfish Rg', 'helvetica neue',
+             helvetica, arial, sans-serif;
+    font-weight: 800;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+<!------------Projects-grid--------------->
+
+.grid-container {
+    display: grid;
+    -ms-grid-row-align: center;
+    grid-template-columns: auto auto auto;
+    background-color: #28f321;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(146, 68, 209, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  /*-----------footer-------------*/
+.container{
+    padding: 50px;
+}
+
+.Contact{
+    padding: 50px;
+    border-radius:50px;
+    background-image: linear-gradient(to right,rgb(56, 64, 175),rgb(69, 209, 81));
+    text-align: center;
+
+}
